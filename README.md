@@ -84,38 +84,45 @@ Below are the training and validation accuracy/loss graphs that illustrate the p
 
 Original CNN trained with imbalanced data and no regularization. This served as the initial baseline, revealing overfitting and poor generalization.
 
-![Baseline Model](media/model_simples51.png)
-
+<p align="center">
+  <img src="media/model_simples51.png" width="30%" alt="Baseline Model" />
+</p>
 
 
 **Improved Model – Class Weights and Regularization**
 
 Enhancements made by introducing **class weighting** to address imbalance and adding **regularization**. The training became more stable, with noticeable performance gains on the validation set.
 
-![Improved Model](media/reg_cw_2048_51.png)
+<p align="center">
+  <img src="media/reg_cw_2048_51.png" width="30%" alt="Improved Model" />
+</p>
 
 
 
-**Final Model – Task 5.1**
+**Final Model - Test dataset Balanced Accuracy: 0.781**
 
 The final version of the model after architecture and training strategy optimizations. This model demonstrates strong generalization and balanced performance.
 
-![Final Model](media/finalmodel_51.png)
 
-**Best Balanced Accuracy**: 0.781
 Results were overall not great. These were improved with Task 5.2, where a less complex CNN arqitecture was used (mainly by decreasing number ans size of fully conected layers) and by focusing more on **Dropout** regularization.
-![Task 5.1 CNN Architecture](figures/figure2.png)  
-![Confusion Matrix - Task 5.1](figures/figure3.png)
 
-
+<p align="center">
+  <img src="media/finalmodel_51.png" width="30%" alt="Final Model" />
+</p>
 
 ### Task 5.2: Multi-class Classification (6 Classes)
+
+<p align="center">
+  <img src="media/BEST CNN.drawio.png" width="100%" alt="CNN Arquitecture" />
+</p>
 
 **Further Improvements:**
 - Reduced batch size to **256** after testing multiple values
 - Optimized CNN architecture to reduce overfitting
 - Introduced **Learning Rate Scheduling**:
   
-  ```python
-  def lr_schedule(epoch, lr):
-      return lr if epoch < 50 else lr * 0.95
+
+<p align="center">
+  <img src="media/CF_ENSEMBLE.png" width="30%" alt="Confusion Matrix from final model (with ensambling)" />
+</p>
+
