@@ -77,13 +77,37 @@ Training and classifying was done with Scikit-Learn.
 - Used **Balanced Accuracy** and **Confusion Matrix** for evaluation
 - Tested different **batch sizes** and found that **2048** worked best
 - **Shuffling the data** significantly improved performance
- 
+
+Below are the training and validation accuracy/loss graphs that illustrate the progressive improvements made throughout the model development pipeline.
+
+**Baseline Model – Imbalanced Data, No Regularization**
+
+Original CNN trained with imbalanced data and no regularization. This served as the initial baseline, revealing overfitting and poor generalization.
+
+![Baseline Model](media/model_simples51.png)
+
+
+
+**Improved Model – Class Weights and Regularization**
+
+Enhancements made by introducing **class weighting** to address imbalance and adding **regularization**. The training became more stable, with noticeable performance gains on the validation set.
+
+![Improved Model](media/reg_cw_2048_51.png)
+
+
+
+**Final Model – Task 5.1**
+
+The final version of the model after architecture and training strategy optimizations. This model demonstrates strong generalization and balanced performance.
+
+![Final Model](media/finalmodel_51.png)
+
 **Best Balanced Accuracy**: 0.781
 Results were overall not great. These were improved with Task 5.2, where a less complex CNN arqitecture was used (mainly by decreasing number ans size of fully conected layers) and by focusing more on **Dropout** regularization.
 ![Task 5.1 CNN Architecture](figures/figure2.png)  
 ![Confusion Matrix - Task 5.1](figures/figure3.png)
 
----
+
 
 ### Task 5.2: Multi-class Classification (6 Classes)
 
