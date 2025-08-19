@@ -110,6 +110,8 @@ Results were overall not great. These were improved with Task 5.2, where a less 
   <img src="media/finalmodel_51.png" width="30%" alt="Final Model" />
 </p>
 
+---
+
 ### Task 5.2: Multi-class Classification (6 Classes)
 
 <p align="center">
@@ -125,4 +127,12 @@ Results were overall not great. These were improved with Task 5.2, where a less 
 <p align="center">
   <img src="media/CF_ENSEMBLE.png" width="30%" alt="Confusion Matrix from final model (with ensambling)" />
 </p>
+
+---
+### Authors
+
+- Alexandre Reis
+- Rodolfo Amorin
+
+
 
