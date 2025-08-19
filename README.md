@@ -2,6 +2,8 @@
 
 This project explores several core Machine Learning (ML) concepts through four main tasks, using the Keras and Scikit-Learn libraries in Python. It is divided into two parts: **regression with synthetic data** and **image classification with real-world data**. Along the way, various techniques were applied, including regularization methods (Lasso, Ridge, Dropout), clustering algorithms (K-Means, GMM), data augmentation, and model ensembling.
 
+The full project report with all conclusions and tested methods, as well as all python code (Jupyter Notebooks), can be found in this repository.
+
 ---
 
 ##  Key Concepts Covered
