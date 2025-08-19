@@ -4,6 +4,10 @@ This project explores several core Machine Learning (ML) concepts through four m
 
 The full project report with all conclusions and tested methods, as well as all python code (Jupyter Notebooks), can be found in this repository.
 
+<p align="center">
+  <img src="media/figure1Melanoma.png" width="60%" />
+</p>
+
 ---
 
 ##  Key Concepts Covered
